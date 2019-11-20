@@ -1,0 +1,85 @@
+#
+# Touchscreen driver configuration
+#
+if TOUCHSCREEN_MTK_GSL1691
+
+config GSL1691_FIRMWARE
+	string "GSL1691 for Mediatek firmware"
+
+config TPD_ROTATE_90
+	bool "gsl1691 for Mediatek package"
+	default n
+	help
+	Say Y here if you have gsl1691 touch panel TPD_ROTATE_90.
+
+	If unsure, say N.
+
+	To compile this dirver as a module, choose M here: the
+	module will be called.
+
+config TPD_ROTATE_180
+	bool "gsl1691 for Mediatek package"
+	default n
+	help
+	Say Y here if you have gsl1691 touch panel TPD_ROTATE_180.
+
+	If unsure, say N.
+
+	To compile this dirver as a module, choose M here: the
+	module will be called.
+
+config TPD_ROTATE_270
+	bool "gsl1691 for Mediatek package"
+	default n
+	help
+	Say Y here if you have gsl1691 touch panel TPD_ROTATE_270.
+
+	If unsure, say N.
+
+	To compile this dirver as a module, choose M here: the
+	module will be called.
+
+config FT_AUTO_UPGRADE_SUPPORT
+	bool "gsl1691 for Mediatek package"
+	default n
+	help
+	Say Y here if you have gsl1691 touch panel FT_AUTO_UPGRADE_SUPPORT.
+
+	If unsure, say N.
+
+	To compile this dirver as a module, choose M here: the
+	module will be called.
+
+config CUST_FTS_APK_DEBUG
+	bool "gsl1691 for Mediatek package"
+	default n
+	help
+	Say Y here if you have gsl1691 touch panel CUST_FTS_APK_DEBUG.
+
+	If unsure, say N.
+
+	To compile this dirver as a module, choose M here: the
+	module will be called.
+
+config TPD_HAVE_CALIBRATION
+	bool "gsl1691 for Mediatek package"
+	default n
+	help
+	Say Y here if you have gsl1691 touch panel TPD_HAVE_CALIBRATION.
+
+	If unsure, say N.
+
+	To compile this dirver as a module, choose M here: the
+	module will be called.
+
+config TPD_CUSTOM_CALIBRATION
+	bool "gsl1691 for Mediatek package"
+	default n
+	help
+	Say Y here if you have gsl1691 touch panel TPD_CUSTOM_CALIBRATION.
+
+	If unsure, say N.
+
+	To compile this dirver as a module, choose M here: the
+	module will be called.
+endif
